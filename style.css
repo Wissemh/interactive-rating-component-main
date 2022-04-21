@@ -108,7 +108,13 @@ p {
 #thank-you-section {
     display: none;
 }
-.selected {
-    background-color: #7c8798;
-    color: white;
+@media (max-width : 530px) {
+    body {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    main {
+        width: 220%;
+    }
 }
